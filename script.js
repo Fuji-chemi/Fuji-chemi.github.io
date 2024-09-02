@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $('#gyozaButton').click(function() {
     $.ajax({
-      url: 'https://hooks.slack.com/services/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', // 発行されたWebhook URLをここに貼り付けます
+      url: 'https://hooks.slack.com/services/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', // 発行されたWebhook URLをここに貼り付けます
       type: 'POST',
       data: JSON.stringify({
         text: '餃子が食べたい！' // Slackに送信されるメッセージ
